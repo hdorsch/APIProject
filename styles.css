@@ -9,9 +9,14 @@ nav {
 
 .hero {
   height: 300px;
-  background-color: rgb(128, 0, 128);
-  background-image: url(../images/hero1.jpg);
+  /* background-color: rgb(128, 0, 128); */
+  background-image: url(/APIProject/images/hero1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.indexBody {
+  background-color: aqua;
+  height: 300px;
 }
