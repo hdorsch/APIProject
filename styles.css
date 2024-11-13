@@ -1,5 +1,5 @@
 nav {
-  background-color: rgba(128, 0, 128, 0.6);
+  background-color: rgba(31, 3, 134, 0.6);
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -9,9 +9,82 @@ nav {
 
 .hero {
   height: 300px;
-  background-color: rgb(128, 0, 128);
-  background-image: url(../images/hero1.jpg);
+  /* background-color: rgb(128, 0, 128); */
+  background-image: url(/images/hero1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* Testing **** ig */
+}
+
+.indexBody {
+  background-image: linear-gradient(rgb(35, 167, 3), rgb(105, 0, 126));
+  height: 600px;
+}
+
+.worldofdisney {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -640px;
+  font-size: 50px;
+  color: white;
+  font-family: "New Walt Disney Font", sans-serif;
+}
+
+.introductionhistory {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: -50px;
+  color: rgb(242, 241, 241);
+}
+
+.yoe {
+  margin-left: 50px;
+  margin-top: 150px;
+  color: white;
+  font-size: 30px;
+  font-family: "New Walt Disney Font", sans-serif;
+}
+
+.diversecast {
+  margin-left: 550px;
+  margin-top: -62px;
+  color: white;
+  font-size: 30px;
+  font-family: "New Walt Disney Font", sans-serif;
+}
+
+.complexcontent {
+  margin-left: 950px;
+  margin-top: -62px;
+  color: white;
+  font-size: 30px;
+  font-family: "New Walt Disney Font", sans-serif;
+}
+
+.yoeexplain {
+  margin-top: -10px;
+  margin-left: 70px;
+  width: 300px;
+  color: white;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+}
+
+.diverseexplain {
+  margin-top: -248px;
+  margin-left: 500px;
+  width: 400px;
+  color: white;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+}
+
+.complexexplain {
+  margin-top: -225px;
+  margin-left: 950px;
+  width: 400px;
+  color: white;
+  font-family: monaco, Consolas, Lucida Console, monospace;
 }
