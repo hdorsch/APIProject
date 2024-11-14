@@ -37,13 +37,13 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   height: 100px;
-  margin-top: -50px;
+  margin-top: 400px;
   color: rgb(242, 241, 241);
 }
 
 .yoe {
   margin-left: 50px;
-  margin-top: 150px;
+
   color: white;
   font-size: 30px;
   font-family: "New Walt Disney Font", sans-serif;
@@ -68,23 +68,23 @@ nav {
 .yoeexplain {
   margin-top: -10px;
   margin-left: 70px;
-  width: 300px;
+  width: 250px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
 }
 
 .diverseexplain {
-  margin-top: -248px;
-  margin-left: 500px;
-  width: 400px;
+  margin-top: -308px;
+  margin-left: 570px;
+  width: 250px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
 }
 
 .complexexplain {
-  margin-top: -225px;
-  margin-left: 950px;
-  width: 400px;
+  margin-top: -350px;
+  margin-left: 1000px;
+  width: 250px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
 }
