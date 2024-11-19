@@ -1,5 +1,6 @@
 nav {
-  background-color: rgba(31, 3, 134, 0.6);
+   background-color: rgba(128, 0, 128, 0.6);
+   background-color: rgba(31, 3, 134, 0.6);
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -10,7 +11,9 @@ nav {
 .hero {
   height: 300px;
   /* background-color: rgb(128, 0, 128); */
-  background-image: url(/images/hero1.jpg);
+
+    background-image: url(/APIProject/images/hero1.jpg);
+    background-image: url(/images/hero1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,4 +90,44 @@ nav {
   width: 250px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
+=======
+  background-color: aqua;
+  height: 300px;
+}
+
+.heroHistory {
+  height: 300px;
+  margin-top: 5px;
+  background-image: url(https://cms.rhinoshield.app/public/images/ip_page_disney_villains_banner_mobile_954285ae43.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.historyH1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-decoration: underline; */
+}
+
+.contentHistory {
+  background-color: rgba(209, 195, 216, 0.3);
+  margin: 50px;
+  /* padding: 100px; */
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  /* height: 500px; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyH2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
