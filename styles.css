@@ -90,7 +90,6 @@ nav {
   width: 250px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
-=======
   background-color: aqua;
   height: 300px;
 }
@@ -130,4 +129,20 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hayscontent {
+  background-color: rgba(209, 195, 216, 0.3);
+  margin: 50px;
+  /* padding: 100px; */
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  /* height: 500px; */
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: "New Walt Disney Font", sans-serif;
 }
