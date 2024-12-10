@@ -8,6 +8,10 @@ nav {
   align-items: center;
 }
 
+.body {
+  margin-bottom: 0px;
+}
+
 .hero {
   height: 300px;
   /* background-color: rgb(128, 0, 128); */
@@ -46,12 +50,10 @@ nav {
 }
 
 .worldofdisney {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: -840px;
+  text-align: center;
   font-size: 50px;
-  color: white;
+  margin-top: -800px;
+  color: rgb(255, 255, 255);
   font-family: "New Walt Disney Font", sans-serif;
 }
 
@@ -65,52 +67,41 @@ nav {
 }
 
 .yoe {
-  margin-left: 50px;
+  text-align: left;
+  margin-left: 10px;
+  position: relative;
+  color: rgb(242, 242, 242);
+  font-size: 30px;
+  font-family: "New Walt Disney Font", sans-serif;
+}
 
+.complexcontent {
+  text-align: right;
+  margin-right: 30px;
   color: white;
   font-size: 30px;
   font-family: "New Walt Disney Font", sans-serif;
 }
 
 .diversecast {
-  margin-left: 550px;
-  margin-top: -62px;
-  color: white;
+  text-align: center;
+  margin-left: -80px;
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-family: "New Walt Disney Font", sans-serif;
 }
 
-.complexcontent {
-  margin-left: 950px;
-  margin-top: -62px;
-  color: white;
-  font-size: 30px;
-  font-family: "New Walt Disney Font", sans-serif;
-}
-
-.yoeexplain {
-  margin-top: -10px;
-  margin-left: 70px;
-  width: 250px;
+.grid-containerindex {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 200px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
-}
-
-.diverseexplain {
-  margin-top: -308px;
-  margin-left: 570px;
-  width: 250px;
-  color: white;
-  font-family: monaco, Consolas, Lucida Console, monospace;
-}
-
-.complexexplain {
-  margin-top: -350px;
-  margin-left: 1000px;
-  width: 250px;
-  color: white;
-  font-family: monaco, Consolas, Lucida Console, monospace;
-  height: 300px;
 }
 
 .heroHistory {
@@ -192,4 +183,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hayscontent {
+  background-color: rgba(209, 195, 216, 0.3);
+  margin: 50px;
+  /* padding: 100px; */
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  /* height: 500px; */
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: "New Walt Disney Font", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  grid-gap: 10px; /* Space between grid items */
+  padding: 10px;
+  text-align: center;
 }
