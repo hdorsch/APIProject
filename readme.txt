@@ -1,7 +1,7 @@
 Group Members:
-Haden - Leader
-Kwai 
-Karis
+Haden - Page: Facts - Leader
+Kwai - Page: History
+Karis - Page: Index
 
 Howdy 
 =======
