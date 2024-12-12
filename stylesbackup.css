@@ -1,0 +1,62 @@
+
+.contenttitle {
+    font-family: "New Walt Disney Font", sans-serif;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  table {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    width: 1fr;
+    font-family: sans-serif;
+    padding: 5px;
+  }
+  
+  thead {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    width: 1fr;
+    font-family: sans-serif;
+    padding: 5px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+
+  .haysback {
+    background-image: linear-gradient(rgb(35, 167, 3), rgb(105, 0, 126));
+    /* height: 100px; */
+    min-height: 100%;
+  }
+  
+  .hayscontent {
+    /* background-color: rgba(209, 195, 216, 0.3); */
+    /* margin: 50px; */
+    /* padding: 100px; */
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    /* height: 500px; */
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: "New Walt Disney Font", sans-serif;
+    color: white;
+  }
+  
+  .h1title {
+    font-size: 48px;
+  }
+  
+  .hayswords {
+    font-family: monaco, Consolas, Lucida Console, monospace;
+  }
+  
+  
