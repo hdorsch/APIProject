@@ -155,6 +155,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 60px;
   /* text-decoration: underline; */
 }
 
@@ -231,6 +232,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "New Walt Disney Font", sans-serif;
+  font-size: 40px;
 }
 
 .historyH2 {
