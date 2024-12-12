@@ -17,5 +17,47 @@
       </nav>
       <!-- <img src="" alt="" class="hero"> -->
     </header>
+
+    <div class="heroContact"></div>
+    <h1 class="contactH1">Let Us Know How You Feel!</h1>
+    <div class="contentContact">
+      <!-- <label>First Name:</label>
+      <input type="text" />
+      <div class="submitbutton">Submit</div> -->
+      <form action="simpleForm.html" method="get">
+        <div class="formfield">
+          <label for="fullname">Full Name:</label>
+          <textarea name="fullname" id="fullName"></textarea>
+        </div>
+        <div class="formfield">
+          <label for="email">Email Address:</label>
+          <textarea name="email" id="email"></textarea>
+        </div>
+
+        <div class="formfield">
+          <label for="phone">Cell:</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div class="formfield">
+          <label for="comments">Comments:</label>
+          <textarea name="comment" id="comment"></textarea>
+        </div>
+
+        <div class="formfield">
+          <label for="contact"> Method of Contact:</label>
+          <select name="contact" id="contact">
+            <option value="Email">Email</option>
+            <option value="Cell">Cell</option>
+          </select>
+        </div>
+
+        <div class="formfield">
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>Copyright Team Cheese &copy;</p>
+    </footer>
   </body>
 </html>

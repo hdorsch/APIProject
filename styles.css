@@ -117,7 +117,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -50px;
   /* text-decoration: underline; */
+}
+
+  
+
+.contactH1 {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: -100px;
 }
 
 .contentHistory {
@@ -151,16 +163,27 @@ nav {
   background-repeat: no-repeat;
 }
 
+.heroContact {
+  height: 300px;
+  margin-top: 5px;
+  background-image: url(https://cms.rhinoshield.app/public/images/ip_page_disney_villains_banner_mobile_954285ae43.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .historyH1 {
+  /* color: ; */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 60px;
   /* text-decoration: underline; */
 }
 
 .contentHistory {
   background-color: rgba(209, 195, 216, 0.3);
-  margin: 50px;
+  margin: 200px;
   /* padding: 100px; */
   padding-top: 50px;
   padding-left: 100px;
@@ -168,9 +191,114 @@ nav {
   padding-bottom: 50px;
   /* height: 500px; */
   height: 100%;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  line-height: 2;
+  text-indent: 50px;
+}
+
+.contentContact {
+  background-color: rgba(209, 195, 216, 0.3);
+  margin: 200px;
+  /* padding: 100px; */
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  /* height: 500px; */
+  min-height: 300px;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* line-height: 2; */
+  /* text-indent: 50px; */
+}
+input, label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  height: 80px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.submitbutton {
+  top: 100px;
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.historyphotoholder1 {
+  background-color: aqua;
+  background-image: url(https://i.ytimg.com/vi/wtPgPYwtBhs/maxresdefault.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.historyphotoholder2 {
+  background-image: url(https://i.pinimg.com/originals/62/e5/2a/62e52a5bd1e996f075c3ced6f0b4c6e1.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.historyphotoholder3 {
+  background-image: url(https://www.rotoscopers.com/wp-content/uploads/2014/10/1.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.historyphotoholder4 {
+  background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Big-Hero-6-Callaghan.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.historyH2 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "New Walt Disney Font", sans-serif;
+  font-size: 40px;
 }
 
 .historyH2 {
@@ -179,10 +307,8 @@ nav {
   justify-content: center;
 }
 
-.historyH2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.historytext {
+  color: black;
 }
 
 .haysback {
@@ -252,4 +378,30 @@ thead {
 
 td {
   padding: 5px;
+}
+form {
+  width: 400px;
+  background-color: lightgray;
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.formfield {
+  padding: 4px;
+}
+
+.formfield label {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.formfield input {
+  height: 30px;
+  font-size: 24px;
+}
+
+.formfield input[type="submit"] {
+  border-radius: 30px;
+  font-size: 20px;
 }
