@@ -41,7 +41,7 @@ nav {
 
 .contentHistory {
   background-color: rgba(209, 195, 216, 0.3);
-  margin: 50px;
+  margin: 200px;
   /* padding: 100px; */
   padding-top: 50px;
   padding-left: 100px;
@@ -49,9 +49,62 @@ nav {
   padding-bottom: 50px;
   /* height: 500px; */
   height: 100%;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  line-height: 2;
+  text-indent: 50px;
+}
+.historyphotoholder1 {
+  background-color: aqua;
+  background-image: url(https://i.ytimg.com/vi/wtPgPYwtBhs/maxresdefault.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.historyphotoholder2 {
+  background-image: url(https://i.pinimg.com/originals/62/e5/2a/62e52a5bd1e996f075c3ced6f0b4c6e1.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.historyphotoholder3 {
+  background-image: url(https://www.rotoscopers.com/wp-content/uploads/2014/10/1.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.historyphotoholder4 {
+  background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Big-Hero-6-Callaghan.jpg);
+  margin: 50px;
+  height: 500px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .historyH2 {
