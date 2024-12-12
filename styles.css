@@ -227,6 +227,7 @@ nav {
 }
 
 .historyH2 {
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,6 +237,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.historytext {
+  color: black;
 }
 
 .hayscontent {
